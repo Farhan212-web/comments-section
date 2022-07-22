@@ -1,0 +1,62 @@
+.Comment {
+    margin: 0 auto;
+    background-color: black;
+    width: 800px;
+    padding: 20px;
+    display: flex;
+    color: white;
+    position: relative;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.rating {
+    border-radius: 10px;
+    background-color: aliceblue;
+    width: 2rem;
+    text-align: center;
+    color: black;
+}
+
+.comment-info {
+    margin-left: 20px;
+    color: white;
+    display: flex;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.author-info img {
+    object-fit: contain;
+    height: 30px;
+}
+
+.author-info span {
+    margin-left: 15px;
+}
+
+.text {
+    width: 85%;
+}
+
+.Reply {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+}
+
+.Reply img {
+    margin-right: 5px;
+}
+
+.main-text {
+    padding-left: 20px;
+}
+
+
+
