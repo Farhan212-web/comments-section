@@ -1,5 +1,5 @@
 .Comment {
-    margin: 0 auto;
+    margin: 10px auto;
     background-color: black;
     width: 800px;
     padding: 20px;
@@ -17,6 +17,11 @@
     width: 2rem;
     text-align: center;
     color: black;
+}
+
+.vote-logo:hover {
+    opacity: 0.7;
+    background-color: red;
 }
 
 .comment-info {
